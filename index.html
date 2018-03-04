@@ -7,23 +7,23 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="designs.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <div id="container">
     <div id="buttons">
       <input type="button" class="button signup" value="Sign Up">
       <input type="button" class="button login active" value="Log In">
     </div>
-
-    <form id="login-form">
+    
+    <form class="login-form">
       <h2 class="message">Welcome back!</h2>
       <input type="email" class="form-input" name="email" placeholder="Email Adress*">
       <input type="password" class="form-input" name="password" placeholder="Password*">
       <div class="forgot-pass"><span class="forgot-link">Forgot Password?</span></div>
       <input type="submit" class="button" name="submit" value="Log in">
     </form>
-
-    <form id="signup-form">
+    
+    <form class="signup-form hide">
       <h2 class="message">Sign Up for Free</h2>
       <input type="text" class="form-input first-name" name="firstname" placeholder="First Name*">
       <input type="text" class="form-input last-name" name="lastname" placeholder="Last Name*">
@@ -34,3 +34,4 @@
   </div>
 </body>
 </html>
+
